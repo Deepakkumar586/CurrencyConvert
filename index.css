@@ -1,0 +1,219 @@
+:root {
+    --primary-color: #6F00FF;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+
+  
+  body {
+    color: white;
+   
+    background-color: #A020F0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    margin: 0;
+    padding: 20px;
+  }
+  .container{
+    border: 2px solid #0000;
+    background-color:#fff;
+    border-radius: 20px;
+    color: black;
+    width: 500px;
+    height: 450px;
+  }
+  .container:hover{
+    transform:translate()
+  }
+  
+  h1 {
+    color: var(--primary-color);
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  .btn {
+    color: #fff;
+    background: var(--primary-color);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 12px;
+    position: absolute;
+    margin-left: 120px;
+
+
+  }
+  
+  .paisa-image {
+    width: 300px;
+    height: 200px;
+    
+  }
+  
+  .currency {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .currency select {
+    padding: 10px 20px 10px 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    background: transparent;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%20000002%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-position: right 10px top 50%, 0, 0;
+    background-size: 12px auto, 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .currency input {
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+  }
+  
+  .swap-rate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .rate {
+    
+    
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  
+  select:focus,
+  input:focus,
+  button:focus {
+    outline: 0;
+    color: #fff;
+  }
+
+
+  /* fdvdwjskdclv  */
+  .amount-heading{
+    color: #000;
+    font-size: 26px;
+
+  }
+  #amount-one{
+    border: 1px solid #000;
+    box-shadow: #fff;
+    border-radius: 12px;
+  
+  }
+  .first-data{
+    margin-top: -2px;
+    margin-left:8px
+  }
+  #currency-one{
+    background-color: #fff;
+    color: black;
+    
+  }
+  .Exchange-converter-description{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+  }
+  
+  options{
+    color: #fff;
+    background-color: #6F00FF;
+  }
+  #amount-two{
+    border: 1px solid #000;
+    border-radius: 12px;
+  }
+  #currency-two{
+    background-color: #FAE6FA;
+    color: black;
+    
+  }
+  
+ 
+  
+  @media (maz-width: 600px) {
+    .currency input {
+      width: 200px;
+    }
+  }
+
+
+
+  
+
+/* === BASE HEADING === */ 
+
+.design-head  {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  
+  .design-head span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+  .design-head em {
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  /* === HEADING STYLE #1 === */
+  .one .design-head {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+  .one .design-head:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #080708;
+  }
+  .one .design-head:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #0d0d0d;
+  }
